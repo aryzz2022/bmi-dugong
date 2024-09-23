@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Light grey background */
+    color: #333; /* Dark grey text for readability */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #003366; /* Dark blue background */
+    color: #FFD700; /* Yellow text */
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    background-color: #003366; /* Dark blue background */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block; /* Inline-block for better control of spacing */
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #FFD700; /* Yellow text */
+    text-decoration: none;
+    padding: 10px;
+    background-color: #333; /* Dark grey background */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+nav ul li a:hover {
+    background-color: #555; /* Lighter grey on hover */
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #FFFACD; /* Light yellow background for clarity */
+    border-radius: 5px; /* Soft edges */
+}
+
+form {
+    margin-top: 20px;
+}
+
+input[type="number"] {
+    padding: 5px;
+    margin-right: 10px;
+    border-radius: 3px; /* Slight border radius for modern look */
+    border: 1px solid #ccc; /* Light border for input field */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #003366; /* Dark blue background */
+    color: #FFD700; /* Yellow text */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+    border-radius: 3px; /* Rounded button edges */
+}
+
+button:hover {
+    background-color: #555; /* Dark grey on hover */
+}
+
+footer {
+    background-color: #003366; /* Dark blue background */
+    color: #FFD700; /* Yellow text */
+    text-align: center;
+    padding: 10px 0;
+    position: relative; /* Changed to relative to avoid conflicts */
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px; /* Margin to separate content from footer */
+}
